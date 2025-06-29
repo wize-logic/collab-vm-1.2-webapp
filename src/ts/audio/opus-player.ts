@@ -35,7 +35,7 @@ export class OpusPlayer {
   private initOptions(options: OpusPlayerOptions) {
     this.option = {
       encoding: '16bitInt',
-      channels: 1,
+      channels: 2,
       sampleRate: 48000,
       flushingTime: 20, // flush every 20 ms by default
       ...options,
