@@ -105,50 +105,44 @@ export class OpusPlayer {
 
   // Internal: push buffered samples into WebAudio
   private flush() {
-    if (!this.samples || this.samples.length === 0) return;
-
-    const channels = this._decodedChannels || this.option.channels;
     const sr = this._decodedSampleRate || this.option.sampleRate;
-    const frameCount = this.samples.length / channels;
-
-    // If there are fewer than maybe one 10 ms frame (480 samples/channel), wait
-    // for a bit more data before scheduling playback. This avoids under‐runs.
-    const minSamples = 480 * channels;
-    if (this.samples.length < minSamples) {
-      return;
-    }
-
-    // If there is ≥480*channels samples, flush all available frames at once:
-    const audioBuffer = this.audioCtx.createBuffer(
-      channels,
-      frameCount,
-      sr
-    );
-
-    const fade = 50;
+    const channels = this._decodedChannels || this.option.channels;
+    const frameSamples = Math.floor((sr * this.option.flushingTime) / 1000); // e.g. 480 @ 20 ms
+    const frameSize = frameSamples * channels;
+  
+    // How many full frames we have
+    const fullFrames = Math.floor(this.samples.length / frameSize);
+    if (fullFrames === 0) return;
+  
+    // Total samples to flush (only full frames)
+    const totalSamples = fullFrames * frameSize;
+  
+    // Create one big AudioBuffer that’s an exact multiple of 20 ms
+    const bufferLen = frameSamples * fullFrames;
+    const audioBuffer = this.audioCtx.createBuffer(channels, bufferLen, sr);
+  
     for (let c = 0; c < channels; c++) {
       const chData = audioBuffer.getChannelData(c);
-      let idx = c;
-      for (let i = 0; i < frameCount; i++) {
-        let s = this.samples[idx];
-        if (i < fade) s *= i / fade;
-        if (i >= frameCount - fade) s *= (frameCount - i) / fade;
-        chData[i] = s;
-        idx += channels;
+      let readIdx = c;
+      for (let i = 0; i < bufferLen; i++) {
+        chData[i] = this.samples[readIdx];
+        readIdx += channels;
       }
     }
-
+  
+    // Schedule it
     const src = this.audioCtx.createBufferSource();
     src.buffer = audioBuffer;
     src.connect(this.gainNode);
-
+  
+    // Make sure we start no earlier than now, and keep pushing at the correct intervals
     if (this.startTime < this.audioCtx.currentTime) {
       this.startTime = this.audioCtx.currentTime;
     }
     src.start(this.startTime);
     this.startTime += audioBuffer.duration;
-
-    // Clear out anything scheduled
-    this.samples = new Float32Array(0);
-  }
+  
+    // Remove exactly the samples we just played, keep the remainder
+    this.samples = this.samples.subarray(totalSamples);
+  }  
 }
