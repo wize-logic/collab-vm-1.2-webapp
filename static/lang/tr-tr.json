@@ -53,6 +53,9 @@
 		"kVMButtons_SoundOn": "Ses açık",
 		"kVMButtons_SoundOff": "Ses kapalı",
 
+		"kVMButtons_Upload": "Yükle",
+		"kVMButtons_Uploading": "Yükleniyor…",
+
 		"kQEMUMonitor": "QEMU Monitörü",
 		"kAdminVMButtons_PassVote": "Oyu geçir",
 		"kAdminVMButtons_CancelVote": "Oyu iptal et",

@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "Звук включён",
 		"kVMButtons_SoundOff": "Звук выключен",
 
+		"kVMButtons_Upload": "Загрузить",
+		"kVMButtons_Uploading": "Загрузка…",
+
 		"kQEMUMonitor": "QEMU Монитор",
 		"kAdminVMButtons_PassVote": "Восстановить виртуальную машину",
 		"kAdminVMButtons_CancelVote": "Отменить голосование",

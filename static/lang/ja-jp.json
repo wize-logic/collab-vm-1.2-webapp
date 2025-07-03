@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "サウンドオン",
 		"kVMButtons_SoundOff": "サウンドオフ",
 
+		"kVMButtons_Upload": "アップロード",
+		"kVMButtons_Uploading": "アップロード中…",
+
 		"kQEMUMonitor": "QEMU Monitor",
 		"kAdminVMButtons_PassVote": "投票をスキップ",
 		"kAdminVMButtons_CancelVote": "投票をキャンセル",

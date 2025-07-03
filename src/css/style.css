@@ -125,7 +125,7 @@ html[data-bs-theme="light"] {
   }
 }
 
-#audioBtnOn {
+#audioBtnOn, #uploadingBtn {
   display: none;
 }
 

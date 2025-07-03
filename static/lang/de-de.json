@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "Ton an",
 		"kVMButtons_SoundOff": "Ton aus",
 
+		"kVMButtons_Upload": "Hochladen",
+		"kVMButtons_Uploading": "Hochladen…",
+
 		"kQEMUMonitor": "QEMU-Konsole",
 		"kAdminVMButtons_PassVote": "Abstimmung abschließen",
 		"kAdminVMButtons_CancelVote": "Abstimmung abbrechen",

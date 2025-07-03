@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "เปิดเสียง",
 		"kVMButtons_SoundOff": "ปิดเสียง",
 
+		"kVMButtons_Upload": "อัปโหลด",
+		"kVMButtons_Uploading": "กำลังอัปโหลด…",
+
 		"kQEMUMonitor": "จอภาพ QEMU",
 		"kAdminVMButtons_PassVote": "โหวตผ่าน",
 		"kAdminVMButtons_CancelVote": "ยกเลิกการลงคะแนน",

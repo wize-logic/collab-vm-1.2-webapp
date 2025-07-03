@@ -39,6 +39,8 @@ const elements = {
 	osk: window.document.getElementById('oskBtn') as HTMLButtonElement,
 	audioBtnOn: window.document.getElementById('audioBtnOn') as HTMLButtonElement,
 	audioBtnOff: window.document.getElementById('audioBtnOff') as HTMLButtonElement,
+	uploadBtn: window.document.getElementById('uploadBtn') as HTMLButtonElement,
+	uploadingBtn: window.document.getElementById('uploadingBtn') as HTMLButtonElement,
 	oskContainer: document.getElementById('osk-container') as HTMLDivElement,
 	screenshotButton: document.getElementById('screenshotButton') as HTMLButtonElement,
 	voteResetButton: document.getElementById('voteResetButton') as HTMLButtonElement,
@@ -285,6 +287,51 @@ elements.audioBtnOff.addEventListener('click', () => {
 		VM.sendAudioMute();
 	}
 });
+
+// Upload stuff
+const fileInput = document.createElement('input');
+fileInput.type = 'file';
+fileInput.style.display = 'none'; // Hide the input
+
+// When button is clicked, trigger the file input
+elements.uploadBtn.addEventListener('click', () => fileInput.click());
+
+fileInput.addEventListener('change', async () => {
+	const file = fileInput.files?.[0];
+	if (!file) return;
+	if (elements.uploadingBtn.style.display === 'none') {
+		elements.uploadingBtn.style.display = 'inline';
+		elements.uploadBtn.style.display = 'none';
+	}
+	const base64 = await toBase64(file);
+	const chunkSize = 512;
+
+	for (let offset = 0; offset < base64.length; offset += chunkSize) {
+		const nextOffset = offset + chunkSize;
+		const chunk = base64.substring(offset, offset + chunkSize);
+		const done = nextOffset >= base64.length;
+		VM?.send('upload', chunk, file.name, done);
+		if(done){
+			elements.uploadingBtn.style.display = 'none';
+			elements.uploadBtn.style.display = 'inline';
+			alert("File successfully uploaded to the network drive.");
+		}
+	}
+});
+
+// Helper: convert a File to base64 string
+function toBase64(file: File): Promise<string> {
+	return new Promise((resolve, reject) => {
+		const reader = new FileReader();
+		reader.onload = () => {
+			const result = reader.result as string;
+			const base64 = result.split(',')[1];
+			resolve(base64);
+		};
+		reader.onerror = (error) => reject(error);
+		reader.readAsDataURL(file);
+	});
+}
 
 const updateOSKStyle = () => {
 	setButtonBackground('.hg-button-shiftleft, .hg-button-shiftright', shiftHeld);

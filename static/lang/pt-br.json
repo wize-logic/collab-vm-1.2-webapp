@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "Som ativado",
 		"kVMButtons_SoundOff": "Som desativado",
 
+		"kVMButtons_Upload": "Enviar",
+		"kVMButtons_Uploading": "Enviando…",
+
 		"kQEMUMonitor": "Monitor QEMU",
 		"kAdminVMButtons_PassVote": "Passar Voto",
 		"kAdminVMButtons_CancelVote": "Cancelar Voto",

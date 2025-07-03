@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "Hang bekapcsolva",
 		"kVMButtons_SoundOff": "Hang kikapcsolva",
 
+		"kVMButtons_Upload": "Feltöltés",
+		"kVMButtons_Uploading": "Feltöltés folyamatban…",
+
 		"kQEMUMonitor": "QEMU Konzol",
 		"kAdminVMButtons_PassVote": "Szavazás kényzerítése",
 		"kAdminVMButtons_CancelVote": "Szavazás megszakítása",

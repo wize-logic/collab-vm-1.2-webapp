@@ -54,6 +54,9 @@
 		"kVMButtons_SoundOn": "kalama li lon",
 		"kVMButtons_SoundOff": "kalama li ala",
 
+		"kVMButtons_Upload": "toki e tomo",
+		"kVMButtons_Uploading": "li tawa tomo…",
+
 		"kQEMUMonitor": "sinpin QEMU",
 		"kAdminVMButtons_PassVote": "mi pilin ala",
 		"kAdminVMButtons_CancelVote": "ni li wile mi ala",

@@ -29,6 +29,8 @@
 		"kError_UsernameInvalid": "Sorry matey, but that name is invalid. Usernames can contain only numbers, letters, spaces, dashes, underscores, and dots, and it must be between 3 and 20 characters.",
 		"kError_UsernameBlacklisted": "Sorry matey, but you cannot use that name.",
 		"kVMButtons_SoundOn": "Ruckus on",
-		"kVMButtons_SoundOff": "Ruckus off"
+		"kVMButtons_SoundOff": "Ruckus off",
+		"kVMButtons_Upload": "Hoist",
+		"kVMButtons_Uploading": "Hoistin’…"
 	}
 }
