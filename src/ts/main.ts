@@ -544,6 +544,10 @@ function closeVM() {
 	elements.audioBtnOff.style.display = 'inline';
 	elements.audioBtnOn.style.display = 'none';
 
+	// Reset upload state
+	elements.uploadBtn.style.display = 'inline';
+	elements.uploadingBtn.style.display = 'none';
+
 	// Close the VM
 	VM.close();
 	VM = null;
