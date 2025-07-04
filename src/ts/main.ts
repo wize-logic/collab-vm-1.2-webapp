@@ -80,71 +80,71 @@ const elements = {
 	qemuMonitorSendBtn: document.getElementById('qemuMonitorSendBtn') as HTMLButtonElement,
 	qemuMonitorOutput: document.getElementById('qemuMonitorOutput') as HTMLTextAreaElement,
 	// Auth
-	accountDropdownUsername: document.getElementById("accountDropdownUsername") as HTMLSpanElement,
-	accountDropdownMenuLink: document.getElementById("accountDropdownMenuLink") as HTMLDivElement,
-	accountLoginButton: document.getElementById("accountLoginButton") as HTMLAnchorElement,
-	accountRegisterButton: document.getElementById("accountRegisterButton") as HTMLAnchorElement,
-	accountSettingsButton: document.getElementById("accountSettingsButton") as HTMLAnchorElement,
-	accountLogoutButton: document.getElementById("accountLogoutButton") as HTMLAnchorElement,
-	accountModal: document.getElementById("accountModal") as HTMLDivElement,
-	accountModalError: document.getElementById("accountModalError") as HTMLDivElement,
-	accountModalErrorText: document.getElementById("accountModalErrorText") as HTMLSpanElement,
-	accountModalErrorDismiss: document.getElementById("accountModalErrorDismiss") as HTMLButtonElement,
-	accountModalSuccess: document.getElementById("accountModalSuccess") as HTMLDivElement,
-	accountModalSuccessText: document.getElementById("accountModalSuccessText") as HTMLSpanElement,
-	accountModalSuccessDismiss: document.getElementById("accountModalSuccessDismiss") as HTMLButtonElement,
-	accountLoginSection: document.getElementById("accountLoginSection") as HTMLDivElement,
-	accountRegisterSection: document.getElementById("accountRegisterSection") as HTMLDivElement,
-	accountVerifyEmailSection: document.getElementById("accountVerifyEmailSection") as HTMLDivElement,
-	accountVerifyEmailText: document.getElementById("accountVerifyEmailText") as HTMLParagraphElement,
-	accountModalTitle: document.getElementById("accountModalTitle") as HTMLHeadingElement,
-	accountLoginForm: document.getElementById("accountLoginForm") as HTMLFormElement,
-	accountRegisterForm: document.getElementById("accountRegisterForm") as HTMLFormElement,
-	accountVerifyEmailForm: document.getElementById("accountVerifyEmailForm") as HTMLFormElement,
-	accountLoginCaptchaContainer: document.getElementById("accountLoginCaptchaContainer") as HTMLDivElement,
-	accountLoginRecaptchaContainer: document.getElementById("accountLoginReCaptchaContainer") as HTMLDivElement,
-	accountLoginTurnstileContainer: document.getElementById("accountLoginTurnstileContainer") as HTMLDivElement,
-	accountRegisterCaptchaContainer: document.getElementById("accountRegisterCaptchaContainer") as HTMLDivElement,
-	accountRegisterRecaptchaContainer: document.getElementById("accountRegisterReCaptchaContainer") as HTMLDivElement,
-	accountRegisterTurnstileContainer: document.getElementById("accountRegisterTurnstileContainer") as HTMLDivElement,
+	accountDropdownUsername: document.getElementById('accountDropdownUsername') as HTMLSpanElement,
+	accountDropdownMenuLink: document.getElementById('accountDropdownMenuLink') as HTMLDivElement,
+	accountLoginButton: document.getElementById('accountLoginButton') as HTMLAnchorElement,
+	accountRegisterButton: document.getElementById('accountRegisterButton') as HTMLAnchorElement,
+	accountSettingsButton: document.getElementById('accountSettingsButton') as HTMLAnchorElement,
+	accountLogoutButton: document.getElementById('accountLogoutButton') as HTMLAnchorElement,
+	accountModal: document.getElementById('accountModal') as HTMLDivElement,
+	accountModalError: document.getElementById('accountModalError') as HTMLDivElement,
+	accountModalErrorText: document.getElementById('accountModalErrorText') as HTMLSpanElement,
+	accountModalErrorDismiss: document.getElementById('accountModalErrorDismiss') as HTMLButtonElement,
+	accountModalSuccess: document.getElementById('accountModalSuccess') as HTMLDivElement,
+	accountModalSuccessText: document.getElementById('accountModalSuccessText') as HTMLSpanElement,
+	accountModalSuccessDismiss: document.getElementById('accountModalSuccessDismiss') as HTMLButtonElement,
+	accountLoginSection: document.getElementById('accountLoginSection') as HTMLDivElement,
+	accountRegisterSection: document.getElementById('accountRegisterSection') as HTMLDivElement,
+	accountVerifyEmailSection: document.getElementById('accountVerifyEmailSection') as HTMLDivElement,
+	accountVerifyEmailText: document.getElementById('accountVerifyEmailText') as HTMLParagraphElement,
+	accountModalTitle: document.getElementById('accountModalTitle') as HTMLHeadingElement,
+	accountLoginForm: document.getElementById('accountLoginForm') as HTMLFormElement,
+	accountRegisterForm: document.getElementById('accountRegisterForm') as HTMLFormElement,
+	accountVerifyEmailForm: document.getElementById('accountVerifyEmailForm') as HTMLFormElement,
+	accountLoginCaptchaContainer: document.getElementById('accountLoginCaptchaContainer') as HTMLDivElement,
+	accountLoginRecaptchaContainer: document.getElementById('accountLoginReCaptchaContainer') as HTMLDivElement,
+	accountLoginTurnstileContainer: document.getElementById('accountLoginTurnstileContainer') as HTMLDivElement,
+	accountRegisterCaptchaContainer: document.getElementById('accountRegisterCaptchaContainer') as HTMLDivElement,
+	accountRegisterRecaptchaContainer: document.getElementById('accountRegisterReCaptchaContainer') as HTMLDivElement,
+	accountRegisterTurnstileContainer: document.getElementById('accountRegisterTurnstileContainer') as HTMLDivElement,
 
-	accountLoginUsername: document.getElementById("accountLoginUsername") as HTMLInputElement,
-	accountLoginPassword: document.getElementById("accountLoginPassword") as HTMLInputElement,
-	accountRegisterEmail: document.getElementById("accountRegisterEmail") as HTMLInputElement,
-	accountRegisterUsername: document.getElementById("accountRegisterUsername") as HTMLInputElement,
-	accountRegisterPassword: document.getElementById("accountRegisterPassword") as HTMLInputElement,
-	accountRegisterConfirmPassword: document.getElementById("accountRegisterConfirmPassword") as HTMLInputElement,
-	accountRegisterDateOfBirth: document.getElementById("accountRegisterDateOfBirth") as HTMLInputElement,
-	accountVerifyEmailCode: document.getElementById("accountVerifyEmailCode") as HTMLInputElement,
-	accountVerifyEmailPassword: document.getElementById("accountVerifyEmailPassword") as HTMLInputElement,
+	accountLoginUsername: document.getElementById('accountLoginUsername') as HTMLInputElement,
+	accountLoginPassword: document.getElementById('accountLoginPassword') as HTMLInputElement,
+	accountRegisterEmail: document.getElementById('accountRegisterEmail') as HTMLInputElement,
+	accountRegisterUsername: document.getElementById('accountRegisterUsername') as HTMLInputElement,
+	accountRegisterPassword: document.getElementById('accountRegisterPassword') as HTMLInputElement,
+	accountRegisterConfirmPassword: document.getElementById('accountRegisterConfirmPassword') as HTMLInputElement,
+	accountRegisterDateOfBirth: document.getElementById('accountRegisterDateOfBirth') as HTMLInputElement,
+	accountVerifyEmailCode: document.getElementById('accountVerifyEmailCode') as HTMLInputElement,
+	accountVerifyEmailPassword: document.getElementById('accountVerifyEmailPassword') as HTMLInputElement,
 
-	accountSettingsSection: document.getElementById("accountSettingsSection") as HTMLDivElement,
-	accountSettingsForm: document.getElementById("accountSettingsForm") as HTMLFormElement,
-	accountSettingsEmail: document.getElementById("accountSettingsEmail") as HTMLInputElement,
-	accountSettingsUsername: document.getElementById("accountSettingsUsername") as HTMLInputElement,
-	accountSettingsNewPassword: document.getElementById("accountSettingsNewPassword") as HTMLInputElement,
-	accountSettingsConfirmNewPassword: document.getElementById("accountSettingsConfirmNewPassword") as HTMLInputElement,
-	accountSettingsCurrentPassword: document.getElementById("accountSettingsCurrentPassword") as HTMLInputElement,
-	hideFlagCheckbox: document.getElementById("hideFlagCheckbox") as HTMLInputElement,
+	accountSettingsSection: document.getElementById('accountSettingsSection') as HTMLDivElement,
+	accountSettingsForm: document.getElementById('accountSettingsForm') as HTMLFormElement,
+	accountSettingsEmail: document.getElementById('accountSettingsEmail') as HTMLInputElement,
+	accountSettingsUsername: document.getElementById('accountSettingsUsername') as HTMLInputElement,
+	accountSettingsNewPassword: document.getElementById('accountSettingsNewPassword') as HTMLInputElement,
+	accountSettingsConfirmNewPassword: document.getElementById('accountSettingsConfirmNewPassword') as HTMLInputElement,
+	accountSettingsCurrentPassword: document.getElementById('accountSettingsCurrentPassword') as HTMLInputElement,
+	hideFlagCheckbox: document.getElementById('hideFlagCheckbox') as HTMLInputElement,
 
-	accountResetPasswordSection: document.getElementById("accountResetPasswordSection") as HTMLDivElement,
-	accountResetPasswordForm: document.getElementById("accountResetPasswordForm") as HTMLFormElement,
-	accountResetPasswordEmail: document.getElementById("accountResetPasswordEmail") as HTMLInputElement,
-	accountResetPasswordUsername: document.getElementById("accountResetPasswordUsername") as HTMLInputElement,
-	accountResetPasswordCaptchaContainer: document.getElementById("accountResetPasswordCaptchaContainer") as HTMLDivElement,
-	accountResetPasswordRecaptchaContainer: document.getElementById("accountResetPasswordReCaptchaContainer") as HTMLDivElement,
-	accountResetPasswordTurnstileContainer: document.getElementById("accountResetPasswordTurnstileContainer") as HTMLDivElement,
+	accountResetPasswordSection: document.getElementById('accountResetPasswordSection') as HTMLDivElement,
+	accountResetPasswordForm: document.getElementById('accountResetPasswordForm') as HTMLFormElement,
+	accountResetPasswordEmail: document.getElementById('accountResetPasswordEmail') as HTMLInputElement,
+	accountResetPasswordUsername: document.getElementById('accountResetPasswordUsername') as HTMLInputElement,
+	accountResetPasswordCaptchaContainer: document.getElementById('accountResetPasswordCaptchaContainer') as HTMLDivElement,
+	accountResetPasswordRecaptchaContainer: document.getElementById('accountResetPasswordReCaptchaContainer') as HTMLDivElement,
+	accountResetPasswordTurnstileContainer: document.getElementById('accountResetPasswordTurnstileContainer') as HTMLDivElement,
 
-	accountResetPasswordVerifySection: document.getElementById("accountResetPasswordVerifySection") as HTMLDivElement,
-	accountVerifyPasswordResetText: document.getElementById("accountVerifyPasswordResetText") as HTMLParagraphElement,
-	accountResetPasswordVerifyForm: document.getElementById("accountResetPasswordVerifyForm") as HTMLFormElement,
-	accountResetPasswordCode: document.getElementById("accountResetPasswordCode") as HTMLInputElement,
-	accountResetPasswordNewPassword: document.getElementById("accountResetPasswordNewPassword") as HTMLInputElement,
-	accountResetPasswordConfirmNewPassword: document.getElementById("accountResetPasswordConfirmNewPassword") as HTMLInputElement,
-	accountForgotPasswordButton: document.getElementById("accountForgotPasswordButton") as HTMLButtonElement,
+	accountResetPasswordVerifySection: document.getElementById('accountResetPasswordVerifySection') as HTMLDivElement,
+	accountVerifyPasswordResetText: document.getElementById('accountVerifyPasswordResetText') as HTMLParagraphElement,
+	accountResetPasswordVerifyForm: document.getElementById('accountResetPasswordVerifyForm') as HTMLFormElement,
+	accountResetPasswordCode: document.getElementById('accountResetPasswordCode') as HTMLInputElement,
+	accountResetPasswordNewPassword: document.getElementById('accountResetPasswordNewPassword') as HTMLInputElement,
+	accountResetPasswordConfirmNewPassword: document.getElementById('accountResetPasswordConfirmNewPassword') as HTMLInputElement,
+	accountForgotPasswordButton: document.getElementById('accountForgotPasswordButton') as HTMLButtonElement
 };
 
-let auth : AuthManager|null = null;
+let auth: AuthManager | null = null;
 
 /* Start OSK */
 let commonKeyboardOptions = {
@@ -274,7 +274,7 @@ elements.audioBtnOn.addEventListener('click', () => {
 	if (!VM) return;
 	elements.audioBtnOn.style.display = 'none';
 	elements.audioBtnOff.style.display = 'inline';
-	if(VM.getAudioMute() === false) {
+	if (VM.getAudioMute() === false) {
 		VM.sendAudioMute();
 	}
 });
@@ -283,7 +283,7 @@ elements.audioBtnOff.addEventListener('click', () => {
 	if (!VM) return;
 	elements.audioBtnOff.style.display = 'none';
 	elements.audioBtnOn.style.display = 'inline';
-	if(VM.getAudioMute() === true) {
+	if (VM.getAudioMute() === true) {
 		VM.sendAudioMute();
 	}
 });
@@ -292,46 +292,74 @@ elements.audioBtnOff.addEventListener('click', () => {
 const fileInput = document.createElement('input');
 fileInput.type = 'file';
 fileInput.style.display = 'none'; // Hide the input
-
 // When button is clicked, trigger the file input
 elements.uploadBtn.addEventListener('click', () => fileInput.click());
 
 fileInput.addEventListener('change', async () => {
-	const file = fileInput.files?.[0];
-	if (!file) return;
-	if (elements.uploadingBtn.style.display === 'none') {
-		elements.uploadingBtn.style.display = 'inline';
-		elements.uploadBtn.style.display = 'none';
-	}
-	const base64 = await toBase64(file);
-	const chunkSize = 512;
+    const file: File | undefined = fileInput.files?.[0];
+    if (!file) return;
 
-	for (let offset = 0; offset < base64.length; offset += chunkSize) {
-		const nextOffset = offset + chunkSize;
-		const chunk = base64.substring(offset, offset + chunkSize);
-		const done = nextOffset >= base64.length;
-		VM?.send('upload', chunk, file.name, done);
-		if(done){
-			elements.uploadingBtn.style.display = 'none';
-			elements.uploadBtn.style.display = 'inline';
-			alert("File successfully uploaded to the network drive.");
-		}
-	}
+    const MAX_SIZE_MB = 25;
+    if (file.size > MAX_SIZE_MB * 1024 * 1024) {
+        alert(`Files over ${MAX_SIZE_MB}MB are not supported. Please use a smaller file.`);
+        return;
+    }
+
+    elements.uploadingBtn.style.display = 'inline';
+    elements.uploadBtn.style.display = 'none';
+
+    const uploadChunkSize = 512;
+    const stream = file.stream();
+    const reader = stream.getReader();
+
+    let sentChunks = 0;
+    let leftover = '';
+    let doneReading = false;
+
+    async function base64EncodeUint8Array(u8arr: Uint8Array): Promise<string> {
+		// @ts-ignore
+        const blob = new Blob([u8arr]);
+        return new Promise((resolve, reject) => {
+            const fr = new FileReader();
+            fr.onload = () => {
+                const result = fr.result as string;
+                resolve(result.slice(result.indexOf(',') + 1));
+            };
+            fr.onerror = reject;
+            fr.readAsDataURL(blob);
+        });
+    }
+
+    while (!doneReading) {
+        const { value, done } = await reader.read();
+        if (done) {
+            doneReading = true;
+            if (leftover.length > 0) {
+                VM?.send('upload', leftover, file.name, true);
+                sentChunks++;
+                //console.log(`Sent final chunk ${sentChunks}, done: true`);
+            } else if (sentChunks === 0) {
+                VM?.send('upload', '', file.name, true);
+            }
+            break;
+        }
+        if (!value) continue;
+
+        leftover += await base64EncodeUint8Array(value);
+
+        while (leftover.length >= uploadChunkSize) {
+            const chunkToSend = leftover.substring(0, uploadChunkSize);
+            leftover = leftover.substring(uploadChunkSize);
+            VM?.send('upload', chunkToSend, file.name, false);
+            sentChunks++;
+            //console.log(`Sent chunk ${sentChunks}, done: false`);
+        }
+    }
+
+    elements.uploadingBtn.style.display = 'none';
+    elements.uploadBtn.style.display = 'inline';
+    alert('File successfully sent to the network drive.');
 });
-
-// Helper: convert a File to base64 string
-function toBase64(file: File): Promise<string> {
-	return new Promise((resolve, reject) => {
-		const reader = new FileReader();
-		reader.onload = () => {
-			const result = reader.result as string;
-			const base64 = result.split(',')[1];
-			resolve(base64);
-		};
-		reader.onerror = (error) => reject(error);
-		reader.readAsDataURL(file);
-	});
-}
 
 const updateOSKStyle = () => {
 	setButtonBackground('.hg-button-shiftleft, .hg-button-shiftright', shiftHeld);
@@ -500,8 +528,8 @@ async function openVM(vm: VM): Promise<void> {
 	});
 
 	// auth
-	VM!.on('auth', async server => {
-		elements.changeUsernameBtn.style.display = "none";
+	VM!.on('auth', async (server) => {
+		elements.changeUsernameBtn.style.display = 'none';
 		if (Config.Auth.Enabled && Config.Auth.APIEndpoint === server && auth!.account) {
 			VM!.loginAccount(auth!.account.sessionToken);
 		} else if (!Config.Auth.Enabled || Config.Auth.APIEndpoint !== server) {
@@ -539,8 +567,7 @@ function closeVM() {
 	expectedClose = true;
 
 	// Reset audio state
-	if(VM?.getAudioMute() === false)
-		VM.sendAudioMute();
+	if (VM?.getAudioMute() === false) VM.sendAudioMute();
 	elements.audioBtnOff.style.display = 'inline';
 	elements.audioBtnOn.style.display = 'none';
 
@@ -583,14 +610,14 @@ function closeVM() {
 	elements.username.classList.remove('username-admin', 'username-moderator', 'username-registered');
 	elements.username.classList.add('username-unregistered');
 	// Reset rename button
-	elements.changeUsernameBtn.style.display = "inline-block";
+	elements.changeUsernameBtn.style.display = 'inline-block';
 	// Reset auth if it was changed by the VM
 	if (Config.Auth.Enabled && auth?.apiEndpoint !== Config.Auth.APIEndpoint) {
 		auth = new AuthManager(Config.Auth.APIEndpoint);
 		renderAuth();
 	} else if (auth && !Config.Auth.Enabled) {
 		auth = null;
-		elements.accountDropdownMenuLink.style.display = "none";
+		elements.accountDropdownMenuLink.style.display = 'none';
 	}
 }
 
@@ -669,11 +696,12 @@ function chatMessage(username: string, message: string) {
 		tr.classList.add(msgclass);
 		td.innerHTML = `<b class="${userclass}">${username}▸</b> ${message}`;
 		// hacky way to allow scripts
-		if (Config.RawMessages.Messages) Array.prototype.slice.call(td.children).forEach((curr) => {
-			if (curr.nodeName === 'SCRIPT') {
-				_eval(curr.text);
-			}
-		});
+		if (Config.RawMessages.Messages)
+			Array.prototype.slice.call(td.children).forEach((curr) => {
+				if (curr.nodeName === 'SCRIPT') {
+					_eval(curr.text);
+				}
+			});
 	}
 	tr.appendChild(td);
 	elements.chatList.appendChild(tr);
@@ -689,13 +717,13 @@ function addUser(user: User) {
 	let td = document.createElement('td');
 	let flagSpan = document.createElement('span');
 	let usernameSpan = document.createElement('span');
-	flagSpan.classList.add("userlist-flag");
-	usernameSpan.classList.add("userlist-username");
+	flagSpan.classList.add('userlist-flag');
+	usernameSpan.classList.add('userlist-username');
 	td.appendChild(flagSpan);
 	if (user.countryCode !== null) {
 		flagSpan.innerHTML = getFlagEmoji(user.countryCode);
 		flagSpan.title = TheI18n.getCountryName(user.countryCode);
-	};
+	}
 	td.appendChild(usernameSpan);
 	usernameSpan.innerText = user.username;
 	switch (user.rank) {
@@ -731,11 +759,16 @@ function remUser(user: User) {
 
 function getFlagEmoji(countryCode: string) {
 	if (countryCode.length !== 2) throw new Error('Invalid country code');
-	return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char =>  127397 + char.charCodeAt(0)));
+	return String.fromCodePoint(
+		...countryCode
+			.toUpperCase()
+			.split('')
+			.map((char) => 127397 + char.charCodeAt(0))
+	);
 }
 
 function flag() {
-	for (let user of users.filter(u => u.user.countryCode !== null)) {
+	for (let user of users.filter((u) => u.user.countryCode !== null)) {
 		user.flagElement.innerHTML = getFlagEmoji(user.user.countryCode!);
 		user.flagElement.title = TheI18n.getCountryName(user.user.countryCode!);
 	}
@@ -932,8 +965,7 @@ function onLogin(_rank: Rank, _perms: Permissions) {
 	}
 	if (_perms.xss) elements.xssCheckboxContainer.style.display = 'inline-block';
 	if (_perms.forcevote) elements.forceVotePanel.style.display = 'block';
-	if (rank !== Rank.Registered)
-		for (const user of users) userModOptions(user);
+	if (rank !== Rank.Registered) for (const user of users) userModOptions(user);
 }
 
 function userModOptions(user: { user: User; element: HTMLTableRowElement }) {
@@ -946,25 +978,35 @@ function userModOptions(user: { user: User; element: HTMLTableRowElement }) {
 	td.setAttribute('aria-expanded', 'false');
 	let ul = document.createElement('ul');
 	ul.classList.add('dropdown-menu', 'dropdown-menu-dark', 'table-dark', 'text-light');
-	if (perms.bypassturn) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kVMButtons_EndTurn), () => VM!.endTurn(user.user.username), "mod-end-turn-btn");
-	if (perms.ban) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Ban), () => VM!.ban(user.user.username), "mod-ban-btn");
-	if (perms.kick) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Kick), () => VM!.kick(user.user.username), "mod-kick-btn");
+	if (perms.bypassturn) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kVMButtons_EndTurn), () => VM!.endTurn(user.user.username), 'mod-end-turn-btn');
+	if (perms.ban) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Ban), () => VM!.ban(user.user.username), 'mod-ban-btn');
+	if (perms.kick) addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Kick), () => VM!.kick(user.user.username), 'mod-kick-btn');
 	if (perms.rename)
-		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kVMButtons_ChangeUsername), () => {
-			let newname = prompt(TheI18n.GetString(I18nStringKey.kVMPrompts_AdminChangeUsernamePrompt, user.user.username));
-			if (!newname) return;
-			VM!.renameUser(user.user.username, newname);
-		}, "mod-rename-btn");
+		addUserDropdownItem(
+			ul,
+			TheI18n.GetString(I18nStringKey.kVMButtons_ChangeUsername),
+			() => {
+				let newname = prompt(TheI18n.GetString(I18nStringKey.kVMPrompts_AdminChangeUsernamePrompt, user.user.username));
+				if (!newname) return;
+				VM!.renameUser(user.user.username, newname);
+			},
+			'mod-rename-btn'
+		);
 	if (perms.mute) {
-		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_TempMute), () => VM!.mute(user.user.username, MuteState.Temp), "mod-temp-mute-btn");
-		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_IndefMute), () => VM!.mute(user.user.username, MuteState.Perma), "mod-indef-mute-btn");
-		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Unmute), () => VM!.mute(user.user.username, MuteState.Unmuted), "mod-unmute-btn");
+		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_TempMute), () => VM!.mute(user.user.username, MuteState.Temp), 'mod-temp-mute-btn');
+		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_IndefMute), () => VM!.mute(user.user.username, MuteState.Perma), 'mod-indef-mute-btn');
+		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_Unmute), () => VM!.mute(user.user.username, MuteState.Unmuted), 'mod-unmute-btn');
 	}
 	if (perms.grabip)
-		addUserDropdownItem(ul, TheI18n.GetString(I18nStringKey.kAdminVMButtons_GetIP), async () => {
-			let ip = await VM!.getip(user.user.username);
-			alert(ip);
-		}, "mod-get-ip-btn");
+		addUserDropdownItem(
+			ul,
+			TheI18n.GetString(I18nStringKey.kAdminVMButtons_GetIP),
+			async () => {
+				let ip = await VM!.getip(user.user.username);
+				alert(ip);
+			},
+			'mod-get-ip-btn'
+		);
 	tr.appendChild(ul);
 }
 
@@ -992,13 +1034,10 @@ elements.forceVoteNoBtn.addEventListener('click', () => VM?.forceVote(false));
 elements.forceVoteYesBtn.addEventListener('click', () => VM?.forceVote(true));
 elements.indefTurnBtn.addEventListener('click', () => VM?.indefiniteTurn());
 
-
 elements.ghostTurnBtn.addEventListener('click', () => {
 	w.collabvm.ghostTurn = !w.collabvm.ghostTurn;
-	if (w.collabvm.ghostTurn)
-		elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOn);
-	else
-		elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOff);
+	if (w.collabvm.ghostTurn) elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOn);
+	else elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOff);
 });
 
 async function sendQEMUCommand() {
@@ -1016,48 +1055,46 @@ elements.qemuMonitorInput.addEventListener('keypress', (e) => e.key === 'Enter' 
 elements.osk.addEventListener('click', () => elements.oskContainer.classList.toggle('d-none'));
 // Auth stuff
 async function renderAuth() {
-	if (auth === null) throw new Error("Cannot renderAuth when auth is null.");
+	if (auth === null) throw new Error('Cannot renderAuth when auth is null.');
 	await auth.getAPIInformation();
 	elements.accountDropdownUsername.innerText = TheI18n.GetString(I18nStringKey.kNotLoggedIn);
-	elements.accountDropdownMenuLink.style.display = "block";
-	if (!auth!.info!.registrationOpen)
-		elements.accountRegisterButton.style.display = "none";
-	else
-		elements.accountRegisterButton.style.display = "block";
-	elements.accountLoginButton.style.display = "block";
-	elements.accountSettingsButton.style.display = "none";
-	elements.accountLogoutButton.style.display = "none";
-	
-	for (let element of document.querySelectorAll("[id^=accountRegisterCaptcha-], [id^=accountLoginCaptcha-], [id^=accountResetPasswordCaptcha-]")) {
-		hcaptcha.remove((element as HTMLElement).parentElement!.getAttribute("data-hcaptcha-widget-id")!);
+	elements.accountDropdownMenuLink.style.display = 'block';
+	if (!auth!.info!.registrationOpen) elements.accountRegisterButton.style.display = 'none';
+	else elements.accountRegisterButton.style.display = 'block';
+	elements.accountLoginButton.style.display = 'block';
+	elements.accountSettingsButton.style.display = 'none';
+	elements.accountLogoutButton.style.display = 'none';
+
+	for (let element of document.querySelectorAll('[id^=accountRegisterCaptcha-], [id^=accountLoginCaptcha-], [id^=accountResetPasswordCaptcha-]')) {
+		hcaptcha.remove((element as HTMLElement).parentElement!.getAttribute('data-hcaptcha-widget-id')!);
 		element.remove();
 	}
 
-	for (let element of document.querySelectorAll("[id^=accountRegisterTurnstile-], [id^=accountLoginTurnstile-], [id^=accountResetPasswordTurnstile-]")) {
-		turnstile.remove((element as HTMLElement).parentElement!.getAttribute("data-turnstile-widget-id")!);
+	for (let element of document.querySelectorAll('[id^=accountRegisterTurnstile-], [id^=accountLoginTurnstile-], [id^=accountResetPasswordTurnstile-]')) {
+		turnstile.remove((element as HTMLElement).parentElement!.getAttribute('data-turnstile-widget-id')!);
 		element.remove();
 	}
 
-	for (let element of document.querySelectorAll("[id^=accountRegisterRecaptcha-], [id^=accountLoginRecaptcha-], [id^=accountResetPasswordRecaptcha-]")) {
-		grecaptcha.reset(parseInt((element as HTMLElement).parentElement!.getAttribute("data-recaptcha-widget-id")!));
+	for (let element of document.querySelectorAll('[id^=accountRegisterRecaptcha-], [id^=accountLoginRecaptcha-], [id^=accountResetPasswordRecaptcha-]')) {
+		grecaptcha.reset(parseInt((element as HTMLElement).parentElement!.getAttribute('data-recaptcha-widget-id')!));
 		element.remove();
 	}
 
 	if (auth!.info!.hcaptcha?.required) {
 		const hconfig = { sitekey: auth!.info!.hcaptcha.siteKey! };
-	
+
 		let renderHcaptcha = () => {
 			let uuid = Math.random().toString(36).substring(7);
 
-			let accountRegisterCaptcha = document.createElement("div");
+			let accountRegisterCaptcha = document.createElement('div');
 			accountRegisterCaptcha.id = `accountRegisterCaptcha-${uuid}`;
 			elements.accountRegisterCaptchaContainer.appendChild(accountRegisterCaptcha);
 
-			let accountLoginCaptcha = document.createElement("div");
+			let accountLoginCaptcha = document.createElement('div');
 			accountLoginCaptcha.id = `accountLoginCaptcha-${uuid}`;
 			elements.accountLoginCaptchaContainer.appendChild(accountLoginCaptcha);
 
-			let accountResetPasswordCaptcha = document.createElement("div");
+			let accountResetPasswordCaptcha = document.createElement('div');
 			accountResetPasswordCaptcha.id = `accountResetPasswordCaptcha-${uuid}`;
 			elements.accountResetPasswordCaptchaContainer.appendChild(accountResetPasswordCaptcha);
 
@@ -1065,36 +1102,36 @@ async function renderAuth() {
 			const hCaptchaLoginWidgetId = hcaptcha.render(accountLoginCaptcha, hconfig);
 			const hCaptchaResetPasswordWidgetId = hcaptcha.render(accountResetPasswordCaptcha, hconfig);
 
-			elements.accountRegisterCaptchaContainer.setAttribute("data-hcaptcha-widget-id", hCaptchaRegisterWidgetId!);
-			elements.accountLoginCaptchaContainer.setAttribute("data-hcaptcha-widget-id", hCaptchaLoginWidgetId!);
-			elements.accountResetPasswordCaptchaContainer.setAttribute("data-hcaptcha-widget-id", hCaptchaResetPasswordWidgetId!);
+			elements.accountRegisterCaptchaContainer.setAttribute('data-hcaptcha-widget-id', hCaptchaRegisterWidgetId!);
+			elements.accountLoginCaptchaContainer.setAttribute('data-hcaptcha-widget-id', hCaptchaLoginWidgetId!);
+			elements.accountResetPasswordCaptchaContainer.setAttribute('data-hcaptcha-widget-id', hCaptchaResetPasswordWidgetId!);
 		};
-	
-		if (typeof hcaptcha === "undefined") {
-			let script = document.createElement("script");
-			script.src = "https://js.hcaptcha.com/1/api.js?render=explicit&recaptchacompat=off&onload=hCaptchaLoad";
+
+		if (typeof hcaptcha === 'undefined') {
+			let script = document.createElement('script');
+			script.src = 'https://js.hcaptcha.com/1/api.js?render=explicit&recaptchacompat=off&onload=hCaptchaLoad';
 			(window as any).hCaptchaLoad = renderHcaptcha;
 			document.head.appendChild(script);
 		} else {
 			renderHcaptcha();
 		}
 	}
-	
+
 	if (auth!.info?.turnstile?.required) {
 		const turnstileConfig = { sitekey: auth!.info!.turnstile.siteKey! };
-	
+
 		let renderTurnstile = () => {
 			let uuid = Math.random().toString(36).substring(7);
 
-			let accountRegisterTurnstile = document.createElement("div");
+			let accountRegisterTurnstile = document.createElement('div');
 			accountRegisterTurnstile.id = `accountRegisterTurnstile-${uuid}`;
 			elements.accountRegisterTurnstileContainer.appendChild(accountRegisterTurnstile);
 
-			let accountLoginTurnstile = document.createElement("div");
+			let accountLoginTurnstile = document.createElement('div');
 			accountLoginTurnstile.id = `accountLoginTurnstile-${uuid}`;
 			elements.accountLoginTurnstileContainer.appendChild(accountLoginTurnstile);
 
-			let accountResetPasswordTurnstile = document.createElement("div");
+			let accountResetPasswordTurnstile = document.createElement('div');
 			accountResetPasswordTurnstile.id = `accountResetPasswordTurnstile-${uuid}`;
 			elements.accountResetPasswordTurnstileContainer.appendChild(accountResetPasswordTurnstile);
 
@@ -1102,108 +1139,108 @@ async function renderAuth() {
 			const turnstileLoginWidgetId = turnstile.render(accountLoginTurnstile, turnstileConfig);
 			const turnstileResetPasswordWidgetId = turnstile.render(accountResetPasswordTurnstile, turnstileConfig);
 
-			elements.accountRegisterTurnstileContainer.setAttribute("data-turnstile-widget-id", turnstileRegisterWidgetId!);
-			elements.accountLoginTurnstileContainer.setAttribute("data-turnstile-widget-id", turnstileLoginWidgetId!);
-			elements.accountResetPasswordTurnstileContainer.setAttribute("data-turnstile-widget-id", turnstileResetPasswordWidgetId!);
+			elements.accountRegisterTurnstileContainer.setAttribute('data-turnstile-widget-id', turnstileRegisterWidgetId!);
+			elements.accountLoginTurnstileContainer.setAttribute('data-turnstile-widget-id', turnstileLoginWidgetId!);
+			elements.accountResetPasswordTurnstileContainer.setAttribute('data-turnstile-widget-id', turnstileResetPasswordWidgetId!);
 		};
-	
-		if (typeof turnstile === "undefined") {
-			let script = document.createElement("script");
-			script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=turnstileLoad";
+
+		if (typeof turnstile === 'undefined') {
+			let script = document.createElement('script');
+			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=turnstileLoad';
 			(window as any).turnstileLoad = renderTurnstile;
 			document.head.appendChild(script);
 		} else {
 			renderTurnstile();
 		}
 	}
-	
+
 	if (auth!.info?.recaptcha?.required) {
 		const recaptchaConfig = { sitekey: auth!.info!.recaptcha.siteKey! };
-	
+
 		let renderRecaptcha = () => {
 			let uuid = Math.random().toString(36).substring(7);
 
-			let accountRegisterRecaptcha = document.createElement("div");
+			let accountRegisterRecaptcha = document.createElement('div');
 			accountRegisterRecaptcha.id = `accountRegisterRecaptcha-${uuid}`;
 			elements.accountRegisterRecaptchaContainer.appendChild(accountRegisterRecaptcha);
 
-			let accountLoginRecaptcha = document.createElement("div");
+			let accountLoginRecaptcha = document.createElement('div');
 			accountLoginRecaptcha.id = `accountLoginRecaptcha-${uuid}`;
 			elements.accountLoginRecaptchaContainer.appendChild(accountLoginRecaptcha);
 
-			let accountResetPasswordRecaptcha = document.createElement("div");
+			let accountResetPasswordRecaptcha = document.createElement('div');
 			accountResetPasswordRecaptcha.id = `accountResetPasswordRecaptcha-${uuid}`;
 			elements.accountResetPasswordRecaptchaContainer.appendChild(accountResetPasswordRecaptcha);
 
 			const RecaptchaRegisterWidgetId = grecaptcha.render(accountRegisterRecaptcha, recaptchaConfig);
 			const RecaptchaLoginWidgetId = grecaptcha.render(accountLoginRecaptcha, recaptchaConfig);
 			const RecaptchaResetPasswordWidgetId = grecaptcha.render(accountResetPasswordRecaptcha, recaptchaConfig);
-	
-			elements.accountRegisterRecaptchaContainer.setAttribute("data-recaptcha-widget-id", RecaptchaRegisterWidgetId!.toString());
-			elements.accountLoginRecaptchaContainer.setAttribute("data-recaptcha-widget-id", RecaptchaLoginWidgetId!.toString());
-			elements.accountResetPasswordRecaptchaContainer.setAttribute("data-recaptcha-widget-id", RecaptchaResetPasswordWidgetId!.toString());
+
+			elements.accountRegisterRecaptchaContainer.setAttribute('data-recaptcha-widget-id', RecaptchaRegisterWidgetId!.toString());
+			elements.accountLoginRecaptchaContainer.setAttribute('data-recaptcha-widget-id', RecaptchaLoginWidgetId!.toString());
+			elements.accountResetPasswordRecaptchaContainer.setAttribute('data-recaptcha-widget-id', RecaptchaResetPasswordWidgetId!.toString());
 		};
-	
-		if (typeof grecaptcha === "undefined") {
-			let script = document.createElement("script");
-			script.src = "https://www.google.com/recaptcha/api.js?render=explicit&onload=recaptchaLoad";
+
+		if (typeof grecaptcha === 'undefined') {
+			let script = document.createElement('script');
+			script.src = 'https://www.google.com/recaptcha/api.js?render=explicit&onload=recaptchaLoad';
 			(window as any).recaptchaLoad = renderRecaptcha;
 			document.head.appendChild(script);
 		} else {
 			grecaptcha.ready(renderRecaptcha);
 		}
-	}	
+	}
 
-	var token = localStorage.getItem("collabvm_session_" + new URL(auth!.apiEndpoint).host);
+	var token = localStorage.getItem('collabvm_session_' + new URL(auth!.apiEndpoint).host);
 	if (token) {
 		var result = await auth!.loadSession(token);
 		if (result.success) {
 			loadAccount();
 		} else {
-			localStorage.removeItem("collabvm_session_" + new URL(auth!.apiEndpoint).host);
+			localStorage.removeItem('collabvm_session_' + new URL(auth!.apiEndpoint).host);
 		}
 	}
 }
 function loadAccount() {
-	if (auth === null || auth.account === null) throw new Error("Cannot loadAccount when auth or auth.account is null.");
+	if (auth === null || auth.account === null) throw new Error('Cannot loadAccount when auth or auth.account is null.');
 	elements.accountDropdownUsername.innerText = auth!.account!.username;
-	elements.accountLoginButton.style.display = "none";
-	elements.accountRegisterButton.style.display = "none";
-	elements.accountSettingsButton.style.display = "block";
-	elements.accountLogoutButton.style.display = "block";
+	elements.accountLoginButton.style.display = 'none';
+	elements.accountRegisterButton.style.display = 'none';
+	elements.accountSettingsButton.style.display = 'block';
+	elements.accountLogoutButton.style.display = 'block';
 	if (VM) VM.loginAccount(auth.account.sessionToken);
 }
 const accountModal = new bootstrap.Modal(elements.accountModal);
-elements.accountModalErrorDismiss.addEventListener('click', () => elements.accountModalError.style.display = "none");
-elements.accountModalSuccessDismiss.addEventListener('click', () => elements.accountModalSuccess.style.display = "none");
-elements.accountLoginButton.addEventListener("click", () => {
+elements.accountModalErrorDismiss.addEventListener('click', () => (elements.accountModalError.style.display = 'none'));
+elements.accountModalSuccessDismiss.addEventListener('click', () => (elements.accountModalSuccess.style.display = 'none'));
+elements.accountLoginButton.addEventListener('click', () => {
 	elements.accountModalTitle.innerText = TheI18n.GetString(I18nStringKey.kGeneric_Login);
-	elements.accountRegisterSection.style.display = "none";
-	elements.accountVerifyEmailSection.style.display = "none";
-	elements.accountLoginSection.style.display = "block";
-	elements.accountSettingsSection.style.display = "none";
-	elements.accountResetPasswordSection.style.display = "none";
-	elements.accountResetPasswordVerifySection.style.display = "none";
+	elements.accountRegisterSection.style.display = 'none';
+	elements.accountVerifyEmailSection.style.display = 'none';
+	elements.accountLoginSection.style.display = 'block';
+	elements.accountSettingsSection.style.display = 'none';
+	elements.accountResetPasswordSection.style.display = 'none';
+	elements.accountResetPasswordVerifySection.style.display = 'none';
 	accountModal.show();
 });
-elements.accountRegisterButton.addEventListener("click", () => {
+elements.accountRegisterButton.addEventListener('click', () => {
 	elements.accountModalTitle.innerText = TheI18n.GetString(I18nStringKey.kGeneric_Register);
-	elements.accountRegisterSection.style.display = "block";
-	elements.accountVerifyEmailSection.style.display = "none";
-	elements.accountLoginSection.style.display = "none";
-	elements.accountSettingsSection.style.display = "none";
-	elements.accountResetPasswordSection.style.display = "none";
-	elements.accountResetPasswordVerifySection.style.display = "none";
+	elements.accountRegisterSection.style.display = 'block';
+	elements.accountVerifyEmailSection.style.display = 'none';
+	elements.accountLoginSection.style.display = 'none';
+	elements.accountSettingsSection.style.display = 'none';
+	elements.accountResetPasswordSection.style.display = 'none';
+	elements.accountResetPasswordVerifySection.style.display = 'none';
 	accountModal.show();
 });
-elements.accountSettingsButton.addEventListener("click", () => {
+elements.accountSettingsButton.addEventListener('click', () => {
 	elements.accountModalTitle.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_AccountSettings);
-	elements.accountRegisterSection.style.display = "none";
-	elements.accountVerifyEmailSection.style.display = "none";
-	elements.accountLoginSection.style.display = "none";
-	elements.accountSettingsSection.style.display = "block";
-	elements.accountResetPasswordSection.style.display = "none";
-	elements.accountResetPasswordVerifySection.style.display = "none";
+	elements.accountRegisterSection.style.display = 'none';
+	elements.accountVerifyEmailSection.style.display = 'none';
+	elements.accountLoginSection.style.display = 'none';
+	elements.accountSettingsSection.style.display = 'block';
+	elements.accountResetPasswordSection.style.display = 'none';
+	elements.accountResetPasswordVerifySection.style.display = 'none';
 	// Fill fields
 	elements.accountSettingsUsername.value = auth!.account!.username;
 	elements.accountSettingsEmail.value = auth!.account!.email;
@@ -1212,14 +1249,14 @@ elements.accountSettingsButton.addEventListener("click", () => {
 elements.accountLogoutButton.addEventListener('click', async () => {
 	if (!auth?.account) return;
 	await auth.logout();
-	localStorage.removeItem("collabvm_session_" + new URL(auth!.apiEndpoint).host);
+	localStorage.removeItem('collabvm_session_' + new URL(auth!.apiEndpoint).host);
 	if (VM) closeVM();
 	renderAuth();
 });
 elements.accountForgotPasswordButton.addEventListener('click', () => {
 	elements.accountModalTitle.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_ResetPassword);
-	elements.accountLoginSection.style.display = "none";
-	elements.accountResetPasswordSection.style.display = "block";
+	elements.accountLoginSection.style.display = 'none';
+	elements.accountResetPasswordSection.style.display = 'block';
 });
 // i dont know if theres a better place to put this
 let accountBeingVerified;
@@ -1228,11 +1265,11 @@ elements.accountLoginForm.addEventListener('submit', async (e) => {
 	var hcaptchaToken = undefined;
 	var hcaptchaID = undefined;
 	if (auth!.info!.hcaptcha?.required) {
-		hcaptchaID = elements.accountLoginCaptchaContainer.getAttribute("data-hcaptcha-widget-id")!
+		hcaptchaID = elements.accountLoginCaptchaContainer.getAttribute('data-hcaptcha-widget-id')!;
 		var response = hcaptcha.getResponse(hcaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		hcaptchaToken = response;
@@ -1242,11 +1279,11 @@ elements.accountLoginForm.addEventListener('submit', async (e) => {
 	var turnstileID = undefined;
 
 	if (auth!.info!.turnstile?.required) {
-		turnstileID = elements.accountLoginTurnstileContainer.getAttribute("data-turnstile-widget-id")!
-		var response: string = turnstile.getResponse(turnstileID) || "";
-		if (response === "") {
+		turnstileID = elements.accountLoginTurnstileContainer.getAttribute('data-turnstile-widget-id')!;
+		var response: string = turnstile.getResponse(turnstileID) || '';
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		turnstileToken = response;
@@ -1256,11 +1293,11 @@ elements.accountLoginForm.addEventListener('submit', async (e) => {
 	var recaptchaID = undefined;
 
 	if (auth!.info!.recaptcha?.required) {
-		recaptchaID = parseInt(elements.accountLoginRecaptchaContainer.getAttribute("data-recaptcha-widget-id")!)
+		recaptchaID = parseInt(elements.accountLoginRecaptchaContainer.getAttribute('data-recaptcha-widget-id')!);
 		var response = grecaptcha.getResponse(recaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		recaptchaToken = response;
@@ -1273,21 +1310,21 @@ elements.accountLoginForm.addEventListener('submit', async (e) => {
 	if (auth!.info!.turnstile?.required) turnstile.reset(turnstileID);
 	if (auth!.info!.recaptcha?.required) grecaptcha.reset(recaptchaID);
 	if (result.success) {
-		elements.accountLoginUsername.value = "";
-		elements.accountLoginPassword.value = "";
+		elements.accountLoginUsername.value = '';
+		elements.accountLoginPassword.value = '';
 		if (result.verificationRequired) {
 			accountBeingVerified = result.username;
 			elements.accountVerifyEmailText.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_VerifyText, result.email!);
-			elements.accountLoginSection.style.display = "none";
-			elements.accountVerifyEmailSection.style.display = "block";
+			elements.accountLoginSection.style.display = 'none';
+			elements.accountVerifyEmailSection.style.display = 'block';
 			return false;
 		}
-		localStorage.setItem("collabvm_session_" + new URL(auth!.apiEndpoint).host, result.token!);
+		localStorage.setItem('collabvm_session_' + new URL(auth!.apiEndpoint).host, result.token!);
 		loadAccount();
 		accountModal.hide();
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
@@ -1296,11 +1333,11 @@ elements.accountRegisterForm.addEventListener('submit', async (e) => {
 	var hcaptchaToken = undefined;
 	var hcaptchaID = undefined;
 	if (auth!.info!.hcaptcha?.required) {
-		hcaptchaID = elements.accountRegisterCaptchaContainer.getAttribute("data-hcaptcha-widget-id")!
+		hcaptchaID = elements.accountRegisterCaptchaContainer.getAttribute('data-hcaptcha-widget-id')!;
 		var response = hcaptcha.getResponse(hcaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		hcaptchaToken = response;
@@ -1310,11 +1347,11 @@ elements.accountRegisterForm.addEventListener('submit', async (e) => {
 	var turnstileID = undefined;
 
 	if (auth!.info!.turnstile?.required) {
-		turnstileID = elements.accountRegisterTurnstileContainer.getAttribute("data-turnstile-widget-id")!
-		var response: string = turnstile.getResponse(turnstileID) || "";
-		if (response === "") {
+		turnstileID = elements.accountRegisterTurnstileContainer.getAttribute('data-turnstile-widget-id')!;
+		var response: string = turnstile.getResponse(turnstileID) || '';
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		turnstileToken = response;
@@ -1324,11 +1361,11 @@ elements.accountRegisterForm.addEventListener('submit', async (e) => {
 	var recaptchaID = undefined;
 
 	if (auth!.info!.recaptcha?.required) {
-		recaptchaID = parseInt(elements.accountRegisterRecaptchaContainer.getAttribute("data-recaptcha-widget-id")!)
+		recaptchaID = parseInt(elements.accountRegisterRecaptchaContainer.getAttribute('data-recaptcha-widget-id')!);
 		var response = grecaptcha.getResponse(recaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		recaptchaToken = response;
@@ -1340,7 +1377,7 @@ elements.accountRegisterForm.addEventListener('submit', async (e) => {
 	var dob = dayjs(elements.accountRegisterDateOfBirth.valueAsDate);
 	if (password !== elements.accountRegisterConfirmPassword.value) {
 		elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kPasswordsMustMatch);
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 		return false;
 	}
 	var result = await auth!.register(username, password, email, dob, hcaptchaToken, turnstileToken, recaptchaToken);
@@ -1348,80 +1385,80 @@ elements.accountRegisterForm.addEventListener('submit', async (e) => {
 	if (auth!.info!.turnstile?.required) turnstile.reset(turnstileID);
 	if (auth!.info!.recaptcha?.required) grecaptcha.reset(recaptchaID);
 	if (result.success) {
-		elements.accountRegisterUsername.value = "";
-		elements.accountRegisterEmail.value = "";
-		elements.accountRegisterPassword.value = "";
-		elements.accountRegisterConfirmPassword.value = "";
-		elements.accountRegisterDateOfBirth.value = "";
+		elements.accountRegisterUsername.value = '';
+		elements.accountRegisterEmail.value = '';
+		elements.accountRegisterPassword.value = '';
+		elements.accountRegisterConfirmPassword.value = '';
+		elements.accountRegisterDateOfBirth.value = '';
 		if (result.verificationRequired) {
 			accountBeingVerified = result.username;
 			elements.accountVerifyEmailText.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_VerifyText, result.email!);
-			elements.accountRegisterSection.style.display = "none";
-			elements.accountVerifyEmailSection.style.display = "block";
+			elements.accountRegisterSection.style.display = 'none';
+			elements.accountVerifyEmailSection.style.display = 'block';
 			return false;
 		}
-		localStorage.setItem("collabvm_session_" + new URL(auth!.apiEndpoint).host, result.sessionToken!);
+		localStorage.setItem('collabvm_session_' + new URL(auth!.apiEndpoint).host, result.sessionToken!);
 		await auth!.loadSession(result.sessionToken!);
 		loadAccount();
 		accountModal.hide();
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
-elements.accountVerifyEmailForm.addEventListener('submit', async e => {
+elements.accountVerifyEmailForm.addEventListener('submit', async (e) => {
 	e.preventDefault();
 	var username = accountBeingVerified!;
 	var code = elements.accountVerifyEmailCode.value;
 	var password = elements.accountVerifyEmailPassword.value;
 	var result = await auth!.verifyEmail(username, password, code);
 	if (result.success) {
-		elements.accountVerifyEmailCode.value = "";
-		elements.accountVerifyEmailPassword.value = "";
-		localStorage.setItem("collabvm_session_" + new URL(auth!.apiEndpoint).host, result.sessionToken!);
+		elements.accountVerifyEmailCode.value = '';
+		elements.accountVerifyEmailPassword.value = '';
+		localStorage.setItem('collabvm_session_' + new URL(auth!.apiEndpoint).host, result.sessionToken!);
 		await auth!.loadSession(result.sessionToken!);
 		loadAccount();
 		accountModal.hide();
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
-elements.accountSettingsForm.addEventListener('submit', async e => {
+elements.accountSettingsForm.addEventListener('submit', async (e) => {
 	e.preventDefault();
 	var oldUsername = auth!.account!.username;
 	var oldEmail = auth!.account!.email;
 	var username = elements.accountSettingsUsername.value === auth!.account!.username ? undefined : elements.accountSettingsUsername.value;
 	var email = elements.accountSettingsEmail.value === auth!.account!.email ? undefined : elements.accountSettingsEmail.value;
-	var password = elements.accountSettingsNewPassword.value === "" ? undefined : elements.accountSettingsNewPassword.value;
+	var password = elements.accountSettingsNewPassword.value === '' ? undefined : elements.accountSettingsNewPassword.value;
 	var currentPassword = elements.accountSettingsCurrentPassword.value;
 	if (password && password !== elements.accountSettingsConfirmNewPassword.value) {
 		elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kPasswordsMustMatch);
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 		return false;
 	}
-	localStorage.setItem("collabvm-hide-flag", JSON.stringify(elements.hideFlagCheckbox.checked));
+	localStorage.setItem('collabvm-hide-flag', JSON.stringify(elements.hideFlagCheckbox.checked));
 	if (!password && !email && !username) {
 		accountModal.hide();
-		return false
+		return false;
 	}
 	var result = await auth!.updateAccount(currentPassword, email, username, password);
 	if (result.success) {
-		elements.accountSettingsNewPassword.value = "";
-		elements.accountSettingsConfirmNewPassword.value = "";
-		elements.accountSettingsCurrentPassword.value = "";
+		elements.accountSettingsNewPassword.value = '';
+		elements.accountSettingsConfirmNewPassword.value = '';
+		elements.accountSettingsCurrentPassword.value = '';
 		if (result.verificationRequired) {
 			renderAuth();
 			accountBeingVerified = username ?? oldUsername;
 			elements.accountVerifyEmailText.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_VerifyText, email ?? oldEmail);
-			elements.accountSettingsSection.style.display = "none";
-			elements.accountVerifyEmailSection.style.display = "block";
+			elements.accountSettingsSection.style.display = 'none';
+			elements.accountVerifyEmailSection.style.display = 'block';
 			return false;
 		} else if (result.sessionExpired) {
 			accountModal.hide();
-			localStorage.removeItem("collabvm_session_" + new URL(auth!.apiEndpoint).host);
+			localStorage.removeItem('collabvm_session_' + new URL(auth!.apiEndpoint).host);
 			if (VM) closeVM();
 			renderAuth();
 		} else {
@@ -1429,22 +1466,22 @@ elements.accountSettingsForm.addEventListener('submit', async e => {
 		}
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
 let resetPasswordUsername;
 let resetPasswordEmail;
-elements.accountResetPasswordForm.addEventListener('submit', async e => {
+elements.accountResetPasswordForm.addEventListener('submit', async (e) => {
 	e.preventDefault();
 	var hcaptchaToken = undefined;
 	var hcaptchaID = undefined;
 	if (auth!.info!.hcaptcha?.required) {
-		hcaptchaID = elements.accountResetPasswordCaptchaContainer.getAttribute("data-hcaptcha-widget-id")!
+		hcaptchaID = elements.accountResetPasswordCaptchaContainer.getAttribute('data-hcaptcha-widget-id')!;
 		var response = hcaptcha.getResponse(hcaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		hcaptchaToken = response;
@@ -1454,11 +1491,11 @@ elements.accountResetPasswordForm.addEventListener('submit', async e => {
 	var turnstileID = undefined;
 
 	if (auth!.info!.turnstile?.required) {
-		turnstileID = elements.accountResetPasswordTurnstileContainer.getAttribute("data-turnstile-widget-id")!
-		var response: string = turnstile.getResponse(turnstileID) || "";
-		if (response === "") {
+		turnstileID = elements.accountResetPasswordTurnstileContainer.getAttribute('data-turnstile-widget-id')!;
+		var response: string = turnstile.getResponse(turnstileID) || '';
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		turnstileToken = response;
@@ -1468,11 +1505,11 @@ elements.accountResetPasswordForm.addEventListener('submit', async e => {
 	var recaptchaID = undefined;
 
 	if (auth!.info!.recaptcha?.required) {
-		recaptchaID = parseInt(elements.accountResetPasswordRecaptchaContainer.getAttribute("data-recaptcha-widget-id")!)
+		recaptchaID = parseInt(elements.accountResetPasswordRecaptchaContainer.getAttribute('data-recaptcha-widget-id')!);
 		var response = grecaptcha.getResponse(recaptchaID);
-		if (response === "") {
+		if (response === '') {
 			elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kMissingCaptcha);
-			elements.accountModalError.style.display = "block";
+			elements.accountModalError.style.display = 'block';
 			return false;
 		}
 		recaptchaToken = response;
@@ -1487,63 +1524,62 @@ elements.accountResetPasswordForm.addEventListener('submit', async e => {
 	if (result.success) {
 		resetPasswordUsername = username;
 		resetPasswordEmail = email;
-		elements.accountResetPasswordUsername.value = "";
-		elements.accountResetPasswordEmail.value = "";
+		elements.accountResetPasswordUsername.value = '';
+		elements.accountResetPasswordEmail.value = '';
 		elements.accountVerifyPasswordResetText.innerText = TheI18n.GetString(I18nStringKey.kAccountModal_VerifyPasswordResetText, email);
-		elements.accountResetPasswordSection.style.display = "none";
-		elements.accountResetPasswordVerifySection.style.display = "block";
+		elements.accountResetPasswordSection.style.display = 'none';
+		elements.accountResetPasswordVerifySection.style.display = 'block';
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
-elements.accountResetPasswordVerifyForm.addEventListener('submit', async e => {
+elements.accountResetPasswordVerifyForm.addEventListener('submit', async (e) => {
 	e.preventDefault();
 	var code = elements.accountResetPasswordCode.value;
 	var password = elements.accountResetPasswordNewPassword.value;
 	if (password !== elements.accountResetPasswordConfirmNewPassword.value) {
 		elements.accountModalErrorText.innerHTML = TheI18n.GetString(I18nStringKey.kPasswordsMustMatch);
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 		return false;
 	}
 	var result = await auth!.resetPassword(resetPasswordUsername!, resetPasswordEmail!, code, password);
 	if (result.success) {
-		elements.accountResetPasswordCode.value = "";
-		elements.accountResetPasswordNewPassword.value = "";
-		elements.accountResetPasswordConfirmNewPassword.value = "";
+		elements.accountResetPasswordCode.value = '';
+		elements.accountResetPasswordNewPassword.value = '';
+		elements.accountResetPasswordConfirmNewPassword.value = '';
 		elements.accountModalSuccessText.innerHTML = TheI18n.GetString(I18nStringKey.kAccountModal_PasswordResetSuccess);
-		elements.accountModalSuccess.style.display = "block";
-		elements.accountResetPasswordVerifySection.style.display = "none";
-		elements.accountLoginSection.style.display = "block";
-		
+		elements.accountModalSuccess.style.display = 'block';
+		elements.accountResetPasswordVerifySection.style.display = 'none';
+		elements.accountLoginSection.style.display = 'block';
 	} else {
 		elements.accountModalErrorText.innerHTML = result.error!;
-		elements.accountModalError.style.display = "block";
+		elements.accountModalError.style.display = 'block';
 	}
 	return false;
 });
 
 let darkTheme = true;
-function loadColorTheme(dark : boolean) {
+function loadColorTheme(dark: boolean) {
 	if (dark) {
 		darkTheme = true;
-		document.children[0].setAttribute("data-bs-theme", "dark");
+		document.children[0].setAttribute('data-bs-theme', 'dark');
 		elements.toggleThemeBtnText.innerHTML = TheI18n.GetString(I18nStringKey.kSiteButtons_LightMode);
-		elements.toggleThemeIcon.classList.remove("fa-moon");
-		elements.toggleThemeIcon.classList.add("fa-sun");
+		elements.toggleThemeIcon.classList.remove('fa-moon');
+		elements.toggleThemeIcon.classList.add('fa-sun');
 	} else {
 		darkTheme = false;
-		document.children[0].setAttribute("data-bs-theme", "light");
+		document.children[0].setAttribute('data-bs-theme', 'light');
 		elements.toggleThemeBtnText.innerHTML = TheI18n.GetString(I18nStringKey.kSiteButtons_DarkMode);
-		elements.toggleThemeIcon.classList.remove("fa-sun");
-		elements.toggleThemeIcon.classList.add("fa-moon");
+		elements.toggleThemeIcon.classList.remove('fa-sun');
+		elements.toggleThemeIcon.classList.add('fa-moon');
 	}
 }
-elements.toggleThemeBtn.addEventListener('click', e => {
+elements.toggleThemeBtn.addEventListener('click', (e) => {
 	e.preventDefault();
 	loadColorTheme(!darkTheme);
-	localStorage.setItem("cvm-dark-theme", darkTheme ? "1" : "0");
+	localStorage.setItem('cvm-dark-theme', darkTheme ? '1' : '0');
 	return false;
 });
 
@@ -1554,7 +1590,7 @@ w.collabvm = {
 	loadList: loadList,
 	multicollab: multicollab,
 	getVM: () => VM,
-	ghostTurn: false,
+	ghostTurn: false
 };
 // Multicollab will stay in the global scope for backwards compatibility
 w.multicollab = multicollab;
@@ -1596,7 +1632,7 @@ w.VMName = null;
 document.addEventListener('DOMContentLoaded', async () => {
 	// Initalize the i18n system
 	await TheI18n.Init();
-	TheI18n.on('languageChanged', lang => {
+	TheI18n.on('languageChanged', (lang) => {
 		// Update all dynamic text
 		if (VM) {
 			document.title = Format('{0} - {1}', VM.getNode()!, TheI18n.GetString(I18nStringKey.kGeneric_CollabVM));
@@ -1604,24 +1640,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 				if (turn === 0) elements.turnstatus.innerText = TheI18n.GetString(I18nStringKey.kVM_TurnTimeTimer, turnTimer);
 				else elements.turnstatus.innerText = TheI18n.GetString(I18nStringKey.kVM_WaitingTurnTimer, turnTimer);
 				elements.turnBtnText.innerText = TheI18n.GetString(I18nStringKey.kVMButtons_EndTurn);
-			}
-			else
-				elements.turnBtnText.innerText = TheI18n.GetString(I18nStringKey.kVMButtons_TakeTurn);
-			if (VM!.getVoteStatus())
-			elements.voteTimeText.innerText = TheI18n.GetString(I18nStringKey.kVM_VoteForResetTimer, voteTimer);
-
-		}
-		else {
+			} else elements.turnBtnText.innerText = TheI18n.GetString(I18nStringKey.kVMButtons_TakeTurn);
+			if (VM!.getVoteStatus()) elements.voteTimeText.innerText = TheI18n.GetString(I18nStringKey.kVM_VoteForResetTimer, voteTimer);
+		} else {
 			document.title = TheI18n.GetString(I18nStringKey.kGeneric_CollabVM);
 		}
 		if (!auth || !auth.account) elements.accountDropdownUsername.innerText = TheI18n.GetString(I18nStringKey.kNotLoggedIn);
 		if (darkTheme) elements.toggleThemeBtnText.innerHTML = TheI18n.GetString(I18nStringKey.kSiteButtons_LightMode);
 		else elements.toggleThemeBtnText.innerHTML = TheI18n.GetString(I18nStringKey.kSiteButtons_DarkMode);
 
-		if (w.collabvm.ghostTurn)
-			elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOn);
-		else
-			elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOff);
+		if (w.collabvm.ghostTurn) elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOn);
+		else elements.ghostTurnBtnText.innerText = TheI18n.GetString(I18nStringKey.kAdminVMButtons_GhostTurnOff);
 
 		for (const user of users) {
 			if (user.user.countryCode !== null) {
@@ -1630,22 +1659,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 		}
 	});
 	// Load theme
-	var _darktheme : boolean;
+	var _darktheme: boolean;
 	// Check if dark theme is set in local storage
-	if (localStorage.getItem("cvm-dark-theme") !== null)
-		loadColorTheme(localStorage.getItem("cvm-dark-theme") === "1");
+	if (localStorage.getItem('cvm-dark-theme') !== null) loadColorTheme(localStorage.getItem('cvm-dark-theme') === '1');
 	// Otherwise, try to detect the system theme
-	else if (window.matchMedia('(prefers-color-scheme: dark)').matches)
-		loadColorTheme(true);
-	else
-		loadColorTheme(false);
+	else if (window.matchMedia('(prefers-color-scheme: dark)').matches) loadColorTheme(true);
+	else loadColorTheme(false);
 	// Initialize authentication if enabled
 	if (Config.Auth.Enabled) {
 		auth = new AuthManager(Config.Auth.APIEndpoint);
 		renderAuth();
 	}
 
-	var hideFlag = JSON.parse(localStorage.getItem("collabvm-hide-flag")!);
+	var hideFlag = JSON.parse(localStorage.getItem('collabvm-hide-flag')!);
 	if (hideFlag === null) hideFlag = false;
 	elements.hideFlagCheckbox.checked = hideFlag;
 
@@ -1668,8 +1694,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 			welcomeModalDismissBtn.disabled = false;
 		}, 5000);
 	}
-	elements.rulesBtn.addEventListener('click', e => {
-		if (TheI18n.CurrentLanguage() !== "en-us") {
+	elements.rulesBtn.addEventListener('click', (e) => {
+		if (TheI18n.CurrentLanguage() !== 'en-us') {
 			e.preventDefault();
 			welcomeModal.show();
 		}
