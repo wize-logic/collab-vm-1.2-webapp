@@ -295,13 +295,40 @@ fileInput.style.display = 'none'; // Hide the input
 // When button is clicked, trigger the file input
 elements.uploadBtn.addEventListener('click', () => fileInput.click());
 
+let isUploading = false;
+
+fileInput.multiple = false; // extra safety
+fileInput.disabled = false;
+
 fileInput.addEventListener('change', async () => {
+    // guard against a second upload
+    if (isUploading) {
+        alert('Upload already in progress – please wait.');
+        fileInput.value = '';
+        return;
+    }
+    isUploading = true;
+
+    // disable the UI so it can’t be re-triggered
+    fileInput.disabled = true;
+    elements.uploadBtn.disabled = true;
+
     const file: File | undefined = fileInput.files?.[0];
-    if (!file) return;
+    if (!file) {
+        // nothing selected
+        isUploading = false;
+        fileInput.disabled = false;
+        elements.uploadBtn.disabled = false;
+        return;
+    }
 
     const MAX_SIZE_MB = 25;
     if (file.size > MAX_SIZE_MB * 1024 * 1024) {
-        alert(`Files over ${MAX_SIZE_MB}MB are not supported. Please use a smaller file.`);
+        alert(`Files over ${MAX_SIZE_MB}MB are not supported.`);
+        isUploading = false;
+        fileInput.value = '';
+        fileInput.disabled = false;
+        elements.uploadBtn.disabled = false;
         return;
     }
 
@@ -317,14 +344,11 @@ fileInput.addEventListener('change', async () => {
     let doneReading = false;
 
     async function base64EncodeUint8Array(u8arr: Uint8Array): Promise<string> {
-		// @ts-ignore
+        // @ts-ignore
         const blob = new Blob([u8arr]);
         return new Promise((resolve, reject) => {
             const fr = new FileReader();
-            fr.onload = () => {
-                const result = fr.result as string;
-                resolve(result.slice(result.indexOf(',') + 1));
-            };
+            fr.onload = () => resolve((fr.result as string).split(',', 2)[1]);
             fr.onerror = reject;
             fr.readAsDataURL(blob);
         });
@@ -334,31 +358,33 @@ fileInput.addEventListener('change', async () => {
         const { value, done } = await reader.read();
         if (done) {
             doneReading = true;
-            if (leftover.length > 0) {
+            if (leftover.length) {
                 VM?.send('upload', leftover, file.name, true);
                 sentChunks++;
-                //console.log(`Sent final chunk ${sentChunks}, done: true`);
-            } else if (sentChunks === 0) {
+            } else if (!sentChunks) {
                 VM?.send('upload', '', file.name, true);
             }
             break;
         }
         if (!value) continue;
-
         leftover += await base64EncodeUint8Array(value);
-
         while (leftover.length >= uploadChunkSize) {
-            const chunkToSend = leftover.substring(0, uploadChunkSize);
-            leftover = leftover.substring(uploadChunkSize);
-            VM?.send('upload', chunkToSend, file.name, false);
+            const chunk = leftover.slice(0, uploadChunkSize);
+            leftover = leftover.slice(uploadChunkSize);
+            VM?.send('upload', chunk, file.name, false);
             sentChunks++;
-            //console.log(`Sent chunk ${sentChunks}, done: false`);
         }
     }
 
     elements.uploadingBtn.style.display = 'none';
     elements.uploadBtn.style.display = 'inline';
     alert('File successfully sent to the network drive.');
+
+    // re-enable for the next upload
+    isUploading = false;
+    fileInput.value = '';
+    fileInput.disabled = false;
+    elements.uploadBtn.disabled = false;
 });
 
 const updateOSKStyle = () => {
